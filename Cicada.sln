@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34526.175
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{5F44309B-4A35-4D48-8439-6228A4C7C24D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cicada", "Cicada\Cicada.vcxproj", "{A7534C61-FF71-4CED-9514-FDC5FDA8CB58}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7534C61-FF71-4CED-9514-FDC5FDA8CB58}.Debug|x64.ActiveCfg = Debug|x64
+		{A7534C61-FF71-4CED-9514-FDC5FDA8CB58}.Debug|x64.Build.0 = Debug|x64
+		{A7534C61-FF71-4CED-9514-FDC5FDA8CB58}.Debug|x86.ActiveCfg = Debug|x64
+		{A7534C61-FF71-4CED-9514-FDC5FDA8CB58}.Release|x64.ActiveCfg = Release|x64
+		{A7534C61-FF71-4CED-9514-FDC5FDA8CB58}.Release|x64.Build.0 = Release|x64
+		{A7534C61-FF71-4CED-9514-FDC5FDA8CB58}.Release|x86.ActiveCfg = Release|x64
+		{5F44309B-4A35-4D48-8439-6228A4C7C24D}.Debug|x64.ActiveCfg = Debug|x64
+		{5F44309B-4A35-4D48-8439-6228A4C7C24D}.Debug|x64.Build.0 = Debug|x64
+		{5F44309B-4A35-4D48-8439-6228A4C7C24D}.Debug|x86.ActiveCfg = Debug|x64
+		{5F44309B-4A35-4D48-8439-6228A4C7C24D}.Release|x64.ActiveCfg = Release|x64
+		{5F44309B-4A35-4D48-8439-6228A4C7C24D}.Release|x64.Build.0 = Release|x64
+		{5F44309B-4A35-4D48-8439-6228A4C7C24D}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB4DCD30-3871-42C8-8517-B0FBA538732B}
+	EndGlobalSection
+EndGlobal
