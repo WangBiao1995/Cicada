@@ -1,0 +1,3 @@
+[submodule "Cicada/vendor/spdlog"]
+	path = Cicada/vendor/spdlog
+	url = https://github.com/gabime/spdlog
