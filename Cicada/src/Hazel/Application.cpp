@@ -17,12 +17,12 @@ namespace Hazel {
 	void Application::Run()
 	{
 		WindowResizeEvent e (1200, 720);
-	/*	if (e.IsInCategory(EventCategoryApplication)) {
-			HZ_TRACE(e);
+	    if (e.IsInCategory(EventCategoryApplication)) {
+			HZ_TRACE(e.ToString());
 		}
 		if (e.IsInCategory(EventCategoryInput)) {
-			HZ_TRACE(e);
-		}*/
+			HZ_TRACE(e.ToString());
+		}
 
 		while (true);
 	}

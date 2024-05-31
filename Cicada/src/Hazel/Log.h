@@ -1,8 +1,10 @@
 #pragma once
 
-#include "spdlog/fmt/ostr.h"
+
+
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 #include <memory.h>
 
 
