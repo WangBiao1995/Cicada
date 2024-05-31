@@ -1,3 +1,6 @@
 [submodule "Cicada/vendor/spdlog"]
 	path = Cicada/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Cicada/vendor/GLFW"]
+	path = Cicada/vendor/GLFW
+	url = https://github.com/theCherno/glfw
