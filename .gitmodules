@@ -4,3 +4,6 @@
 [submodule "Cicada/vendor/GLFW"]
 	path = Cicada/vendor/GLFW
 	url = https://github.com/theCherno/glfw
+[submodule "Cicada/vendor/imgui"]
+	path = Cicada/vendor/imgui
+	url = https://github.com/TheCherno/imgui

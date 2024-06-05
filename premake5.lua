@@ -28,6 +28,10 @@ project "Cicada"
 		"%{prj.name}/src"
 	}
 
+	pchheader "hzpch.h";
+	pchsource "Cicada/src/hzpch.cpp"
+
+
 	filter "system:windows"
 		cppdialect "C++17"  --设置c++语言标准
 		staticruntime "On" --使用静态链接，链接该库
