@@ -4,7 +4,7 @@
 #include "Hazel/Events//ApplicationEvent.h"
 #include "Hazel/Events//MouseEvent.h"
 #include "Hazel/Events/KeyEvent.h"
-#include <glad/glad.h>"
+#include <glad/glad.h>
 #include "GLFW/glfw3.h"
 
 namespace Hazel {
@@ -36,7 +36,7 @@ namespace Hazel {
 	
 		if (!s_GLFWInitialized) {
 			int success = glfwInit();
-			HZ_CORE_ASSERT(success,"Could not intialize GLFW!");
+			HZ_CORE_ASSERT(success, "Could not intialize GLFW!");
 			glfwSetErrorCallback(GLFWErrorCallback);
 			s_GLFWInitialized = false;
 		}
@@ -48,7 +48,7 @@ namespace Hazel {
 
 		//使用glad加载openGL函数
 		int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-		HZ_CORE_ASSERT(status,"Failed to initialize Glad!")
+		HZ_CORE_ASSERT(status, "Failed to initialize Glad!");
 		//Set GLFW callbacks
 		glfwSetWindowSizeCallback(m_Window, [](GLFWwindow* window, int width, int height) 
 		{  
@@ -114,6 +114,15 @@ namespace Hazel {
 			}
 		
 		});
+
+
+		glfwSetCharCallback(m_Window, [](GLFWwindow* window,unsigned int keycode) {
+
+			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
+		    KeyTypedEvent event(keycode);
+			data.EventCallback(event);
+		});
+
 
 		glfwSetScrollCallback(m_Window, [](GLFWwindow* window,double xoffset,double yOffset) {
 
